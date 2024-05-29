@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>  
+  <form method="post" enctype="multipart/form-data">
+    Name:<input type="text" name="name"><br>
+    <input type="file" name="image">
+    <input type="submit">
+    </form>
+
+    <script>
+      const form = document.querySelector('form');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const urlEncoded = new URLSearchParams(formData).toString();
+        fetch('http://localhost:5000/known-faces', {
+          method: 'POST',
+          body: formData
+        })
+      });
+    </script>
+</body>
+</html>
