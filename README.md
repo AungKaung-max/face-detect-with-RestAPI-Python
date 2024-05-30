@@ -7,7 +7,6 @@ This project is a real-life face recognition system that uses a REST API for int
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 
 ## Features
 
