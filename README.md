@@ -1,7 +1,7 @@
 
 ## Description
 
-This project is a real-life face recognition system that uses a REST API for interaction, MongoDB for storing face data, and Python for face recognition. Developed by Aung Aung Myat Htun, this system captures images in real-time, processes them, and matches them against a database of known faces.
+This project is a real-life face recognition system that uses a REST API for interaction, MongoDB for storing face data, and Python for face recognition. Developed by Aung Kaung Myat Htun, this system captures images in real-time, processes them, and matches them against a database of known faces.
 
 ## Table of Contents
 
